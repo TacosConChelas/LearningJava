@@ -1,5 +1,11 @@
+/**
+Ejercicio 2 — Suma desde stdin
 
-
+Objetivo: práctica con E/S estándar y BufferedReader.
+Enunciado: Lee dos enteros a y b en una sola línea y escribe a + b.
+Entrada ejemplo: 3 5 → salida 8
+Criterios: correcto para valores grandes dentro de int, uso de BufferedReader y StringTokenizer.
+**/
 import java.io.*;
 import java.util.*;
 
