@@ -9,7 +9,7 @@ Criterios: correcto para valores grandes dentro de int, uso de BufferedReader y 
 import java.io.*;
 import java.util.*;
 
-class PlusFromStdin{
+public class PlusFromStdin{
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in), 1 << 16);
         StringTokenizer st = new StringTokenizer(br.readLine());
