@@ -1,10 +1,9 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        try {
+        if (args.length > 0){
             System.out.println("Hello, " + args[0] + "!");
-        } catch (Exception e) {
+        } else {
             System.out.println("Hello, World!");
         }
-
     }
 }
