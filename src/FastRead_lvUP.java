@@ -12,21 +12,22 @@ Enunciado: Primera línea N (1 ≤ N ≤ 2·10^6). Siguiente línea con N entero
 Recomendación: usa un FastScanner o BufferedReader con parseo manual; medición mental de complejidad O(N).
 Criterios: correcto y razonable en velocidad/uso de memoria.
  */
-public class FastRead {
+public class FastRead_lvUP {
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in), 1 << 10);
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in), 1 << 16);
+        
+
+        int N = Integer.parseInt(br.readLine());
         long total = 0;
-        while (true) {
-            try {
-                int number = Integer.parseInt(st.nextToken());
-                total += number;
-            } catch (Exception e) {
-                break;// TODO: handle exception
-            }
+        String line;
+        while ((line = br.readLine()) != null) {
+            StringTokenizer st = new StringTokenizer(line);
+            while (st.hasMoreTokens()) {
+                total += Integer.parseInt(st.nextToken());
+            }            
         }
-        System.out.println("el resultado es: " + total);
+        System.out.println("El resultado es: " + total);
         
     }
 }
