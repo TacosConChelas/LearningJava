@@ -17,7 +17,6 @@ public class FastRead_lvUP {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in), 1 << 16);
         
-
         int N = Integer.parseInt(br.readLine());
         long total = 0;
         String line;

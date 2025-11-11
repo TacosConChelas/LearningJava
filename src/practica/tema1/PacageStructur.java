@@ -1,3 +1,4 @@
+package practica.tema1;
 /**
 Ejercicio 5 — Estructura de paquetes y compilación multi-file
 
@@ -12,5 +13,7 @@ Compila desde la raíz (sin usar IDE, desde CLI) y ejecuta java practica.tema1.M
 Criterios: estructura de carpetas correcta, compilación con javac usando -d o similar, ejecución correcta.
  */
 public class PacageStructur {
-
+    public static void main(String[] args) {
+        System.out.println("Hola este es un proyecto completo empaquetado");
+    }
 }
