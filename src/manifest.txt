@@ -1,2 +1,2 @@
 Manifest-Version: 1.0
-Main-Class: Creacion_Jar.Suma
+Main-Class: practica.tema1.Main
