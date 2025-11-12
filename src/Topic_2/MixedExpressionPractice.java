@@ -8,5 +8,5 @@ Print result and explain the operator precedence.
 package Topic_2;
 
 public class MixedExpressionPractice {
-
+    
 }

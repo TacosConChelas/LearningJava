@@ -12,7 +12,7 @@ public class TypeConversion {
         double number_2 = 33.33333;
 
         System.out.println((double) number_1);
-        // the variable "number_1" with a value of 33, we changed it with a "Narrowing" and after printed 
+        // the variable "number_1" with a value of 33, we changed it with a "Widening" and after printed 
         System.out.println((int) number_2);
         // the variable "number_2" with a value of 33.33333, we changed it with a "Narrowing" and after printed 
     }

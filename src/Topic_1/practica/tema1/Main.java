@@ -1,4 +1,4 @@
-package practica.tema1;
+package Topic_1.practica.tema1;
 /**
 Ejercicio 5 — Estructura de paquetes y compilación multi-file
 
