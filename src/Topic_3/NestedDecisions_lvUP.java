@@ -1,5 +1,28 @@
 package Topic_3;
 
+/*
+- --------  Exercise 1 – Nested Decisions (if‑else + Ternary Operator)
+Task
+Write a program that asks the user for three integers a, b, and c. The program must:
+
+    Determine which of the three numbers is the greatest using only if‑else statements.
+    Print “All numbers are equal” if the three values are identical.
+    If they are not all equal, output the greatest number using the ternary operator ?: for the final print statement.
+
+What you’ll practice
+
+    Nested if‑else blocks.
+    Using the ternary operator to simplify a single expression.
+
+-- Puntos a destacar:
+    try‑with‑resources garantiza que el Scanner se cierra automáticamente, incluso si ocurre una excepción.
+    Método readInt centraliza la validación de la entrada, evitando duplicar código.
+    Declaración final para a, b y c.
+    Lógica completa para encontrar el mayor sin omitir ningún caso.
+    Mensajes en español coherentes con el enunciado del ejercicio.
+    Uso del operador ternario únicamente para la impresión final, tal como pedía el ejercicio.
+ */
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
