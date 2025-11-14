@@ -52,7 +52,11 @@ public class MultipleChoiseSelection {
             System.out.println("An error occurred: " + e.getMessage());
         }    
     }
-    
+    /*
+    @param sc Scanner object for reading input
+    @param promptString String to prompt the user
+    @return int Validated integer input from the user
+     */
     public static int readIntegerInput(Scanner sc, String promptString){
         System.out.println(promptString);
         while(!sc.hasNextInt()){
