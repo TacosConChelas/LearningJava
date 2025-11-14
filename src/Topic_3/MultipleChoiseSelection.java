@@ -20,6 +20,31 @@ What you’ll practice
  */
 package Topic_3;
 
+import java.util.Scanner;
+
 public class MultipleChoiseSelection {
+    public static void main(String[] args) {
+        String message = ("Choose an option:" + 
+                "\n1) Add" +
+                "\n2) Subtract" +
+                "\n3) Multiply" +
+                "\n4) Divide" +
+                "\n5) Exit");    
+        try (Scanner sc = new Scanner(System.in)){
+            final int option = readIntegerInput(sc, message);
+        } catch (Exception e) {
+        
+        }    
+    }
+    
+    public static int readIntegerInput(Scanner sc, String promptString){
+        System.out.println(promptString);
+        while(!sc.hasNextInt()){
+            System.out.println("Invalid input, you have to enter a integer number");
+            sc.next();
+            System.out.println(promptString);
+        }
+        return sc.nextInt();
+    }
 
 }
