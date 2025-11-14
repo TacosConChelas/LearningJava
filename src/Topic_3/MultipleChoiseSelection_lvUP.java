@@ -25,7 +25,7 @@ Cambios:
     Nombres claros y en español (MultipleChoiceSelection, readTwoOperands, readIntegerInput).
     Formato de salida con printf para la división, mostrando 4 decimales.
     Manejo específico de InputMismatchException y mensajes de error en español.
-    Código bien sangrado y documentado con Javadoc.
+    Código bien sangrado y documentado con Javadoc.git a
 */
 
 package Topic_3;
