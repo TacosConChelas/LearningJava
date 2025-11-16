@@ -19,5 +19,20 @@ What you’ll practice
 package Topic_3;
 
 public class ForLoopContinueBreak {
+    public static void main(String[] args) {
+        
+        int iterable = 1;
+        while (true && iterable <= 100) {
+            if (iterable % 3 == 0) {
+                iterable++;
+                continue;
+            }
+            if (iterable % 7 == 0) {
+                break;
+            }
+            System.out.println(iterable);
+            iterable++; 
+        }
+    }
     
 }
