@@ -19,7 +19,25 @@ What you’ll practice
 
  */
 package Topic_3;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.lang.Math;
+import java.nio.Buffer;
+
 
 public class WhileAndDoWhileLoops {
+    public static void main(String[] args) throws NumberFormatException, IOException {
+        int randomNumber = (int)(Math.random() * 500) + 1;
+        System.out.println(randomNumber);
+        int attempts = 10;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        while (attempts > 0) {
+            System.out.println("Try to gess the secret number between 1 an 500, you have 10 attempts");
+            int userGess = Integer.parseInt(br.readLine());
+            
+        }        
+    }
     
 }
