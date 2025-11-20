@@ -21,5 +21,11 @@ Goal: Small real module + safe logic + method organization.
 package Topic_4;
 
 public class MiniCalculator {
+    public static void main(String[] args) {
+        
+    }   
+    public static int add(int x, int y) {
+        return x + y;
+    }
     
 }
