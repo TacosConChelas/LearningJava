@@ -18,7 +18,7 @@ public class MethodUsingAnotherMethod {
     public static void main(String[] args) {
         System.out.println("Count of even numbers: " + countEvens(2, 9, 4, 11)); // Should print 2    
     }   
-    /*/
+    /*
     @paramn n int: numero a evaluar
     @return boolean: true si es par, false si es impar
     */
